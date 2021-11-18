@@ -1,8 +1,10 @@
 # Rust Game of Life
 
-This is a simulator of Conway's Game of Life in Rust, using SDL2 to render the game graphically.
+This is a simulator of Conway's Game of Life in Rust, using SDL2 to render the game graphically. It was built as a Rust learning exercise.
 
 ![Simulator Example](readme/example.gif)
+
+Much of this code is inspired by [Ivan Yakushev's rust.game_of_life](https://github.com/iyakushev/rust.game_of_life).
 
 ## Build/Running
 
