@@ -1,0 +1,14 @@
+[package]
+name = "conway"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = "2.33.3"
+console = "0.15.0"
+crossterm = "0.22.1"
+rand = "0.8.4"
+regex = "1"
+sdl2 = "0.35.0"
