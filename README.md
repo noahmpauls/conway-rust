@@ -11,9 +11,9 @@ Much of this code is inspired by [Ivan Yakushev's rust.game_of_life](https://git
 To build from the source:
 
 1. Clone this repository.
-2. The required SDL2 crate is a set of bindings for the SDL2 libraries, and the project will not compile without these libararies. Follow the [instructions provided by Rust-SDL2](https://github.com/Rust-SDL2/rust-sdl2#sdl20-development-libraries) to set up your environment.
-3. For the best performance, you should build in the release configuration to optimize the compiled binary. Run `cargo build --release` from the repository root.
-4. Run the `.exe` generated in the `target/release` folder.
+2. Run `cargo build --release`. This requires a C compiler to build and link SDL2 libraries; install the recommended C compiler if the build fails.
+   - *Note:* you can also use `cargo run`, but building in the release configuration is recommended for performance.
+3. Run the `conway` executable generated in the `target/release` folder. See below for examples.
 
 ### Examples
 
