@@ -14,4 +14,4 @@ regex = "1"
 
 [dependencies.sdl2]
 version = "0.35.0"
-features = ["bundled", "static-link"]
+# features = ["bundled", "static-link"]
